@@ -80,7 +80,7 @@ header section {
 }
 
 .right-header {
-  background-color: darkgrey;
+  background-color: lightslategray;
   text-align: center;
   flex: 1;
   display: flex;
@@ -139,12 +139,13 @@ header section {
 }
 
 .cta {
-  margin: 100px 200px;
+  margin: 100px 300px;
   border-radius: 10px;
   padding: 25px 125px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  height: 15vh;
 }
 
 .cta-text h3,
@@ -152,11 +153,17 @@ header section {
   margin: 5px;
 }
 
+.cta-text h3,
 .cta-button button {
-  border-radius: 5px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.cta-button button {
+  border-radius: 8px;
   border: solid 2px white;
-  width: 125px;
-  height: 40px;
+  width: 150px;
+  height: 50px;
   font-weight: bold;
 }
 
