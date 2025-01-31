@@ -18,7 +18,8 @@ header p,
 header a,
 button,
 .cta-button,
-.cta-text {
+.cta-text,
+footer {
   font-size: 18px;
   color: #e5e7eb;
 }
@@ -32,7 +33,6 @@ button,
 button,
 .cta {
   background-color: #3882f6;
-  margin: 15px;
 }
 
 nav {
@@ -61,7 +61,7 @@ header section {
 
 .left-header h1,
 .left-header p {
-  margin: 15px;
+  margin-bottom: 15px;
   padding-right: 50px;
 }
 
@@ -70,11 +70,13 @@ header section {
   border: 0;
   width: 125px;
   height: 35px;
+  margin-bottom: 15px;
 }
 
 .left-header {
   flex: 1;
   align-self: center;
+  margin: 0;
 }
 
 .right-header {
@@ -156,4 +158,11 @@ header section {
   width: 125px;
   height: 40px;
   font-weight: bold;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
 }
