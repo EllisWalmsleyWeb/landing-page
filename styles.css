@@ -56,8 +56,8 @@ header section {
 }
 
 .left-header h1,
-p,
-button {
+.left-header p,
+.left-header button {
   margin: 15px;
   padding-right: 50px;
 }
@@ -81,4 +81,35 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.information {
+  padding: 50px 500px;
+}
+
+.infromation-flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.information h1 {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  text-align: center;
+}
+
+.image {
+  border: solid blue 2px;
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  justify-self: center;
+  margin-top: 10px;
+}
+
+.box p {
+  text-align: center;
+  padding: 0 30px;
 }
