@@ -16,7 +16,9 @@ header h2 {
 
 header p,
 header a,
-button {
+button,
+.cta-button,
+.cta-text {
   font-size: 18px;
   color: #e5e7eb;
 }
@@ -27,8 +29,10 @@ button {
   font-weight: 900;
 }
 
-button {
+button,
+.cta {
   background-color: #3882f6;
+  margin: 15px;
 }
 
 nav {
@@ -56,8 +60,7 @@ header section {
 }
 
 .left-header h1,
-.left-header p,
-.left-header button {
+.left-header p {
   margin: 15px;
   padding-right: 50px;
 }
@@ -131,4 +134,26 @@ header section {
 #author {
   align-self: flex-end;
   font-style: bold;
+}
+
+.cta {
+  margin: 100px 200px;
+  border-radius: 10px;
+  padding: 25px 125px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cta-text h3,
+.cta-text p {
+  margin: 5px;
+}
+
+.cta-button button {
+  border-radius: 5px;
+  border: solid 2px white;
+  width: 125px;
+  height: 40px;
+  font-weight: bold;
 }
